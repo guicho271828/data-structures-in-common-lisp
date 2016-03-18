@@ -13,9 +13,9 @@ availability in common lisp is low, rather than "too high" that it is
 difficult to choose which one to settle on, as in the case of application
 tools such as web server, databases, GUI.
 
-# Now, before proceeding, I do emphasize that I am not a Data Structure Ninja or sort of.
-
-Any contributions are welcome. However, I do not like to make this tiny project like
+I emphasize that I am not a sort of Data Structure Ninja and
+any contributions are welcome. However, I do not like to make this tiny project like
 Cliki, which contains bunch of outdated, unorganized information.
 So, the material in the survey should better be a library already available in quicklisp.
+
 
