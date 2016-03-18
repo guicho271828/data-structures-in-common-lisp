@@ -4,7 +4,7 @@ This is a repository containing a survey of data structure availability / qualit
 
 For computer scientists, efficient implementations of some key data structures are the must.
 Thanks to quicklisp, currently there are bunch of libraries available.
-However, their quality varies --- some may use CLOS, some may be imperative, some are missing documents.
+However, their quality varies --- some may use CLOS, some may be imperative, some are missing documentations.
 
 This project is somewhat similar in spirit to
 http://eudoxia.me/article/common-lisp-sotu-2015/ . However, I do not plan
