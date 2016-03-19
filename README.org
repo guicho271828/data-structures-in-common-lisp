@@ -8,13 +8,13 @@ However, their quality varies --- some may use CLOS, some may be imperative, som
 
 To contribute, add a new entry to =database.sexp=. **Currently, no explicit format is specified.** They are not processed by any programs. Just follow the other entries, and you may extend the format. Example:
 
-```lisp
+#+begin_src lisp
 (:hh-redblack
  (:red-black-tree)
  :features (:persistence :clos)
  :documentation :missing
  :status (:non-usable :outdated))
-```
+#+end_src
 
 
 * background
