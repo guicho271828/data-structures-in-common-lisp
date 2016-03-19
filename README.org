@@ -6,6 +6,19 @@ For computer scientists, efficient implementations of some key data structures a
 Thanks to quicklisp, currently there are bunch of libraries available.
 However, their quality varies --- some may use CLOS, some may be imperative, some are missing documentations.
 
+To contribute, add a new entry to =database.sexp=. **Currently, no explicit format is specified.** They are not processed by any programs. Just follow the other entries, and you may extend the format. Example:
+
+```lisp
+(:hh-redblack
+ (:red-black-tree)
+ :features (:persistence :clos)
+ :documentation :missing
+ :status (:non-usable :outdated))
+```
+
+
+* background
+
 This project is somewhat similar in spirit to
 http://eudoxia.me/article/common-lisp-sotu-2015/ . However, I do not plan
 to propose any consolidation mainly because I believe the data structure
