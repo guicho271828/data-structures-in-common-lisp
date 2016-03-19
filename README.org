@@ -10,7 +10,7 @@ To contribute, add a new entry to =database.sexp=. **Currently, no explicit form
 
 #+begin_src lisp
 (:hh-redblack
- (:red-black-tree)
+ :provides (:red-black-tree)
  :features (:persistence :clos)
  :documentation :missing
  :status (:non-usable :outdated))
